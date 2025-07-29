@@ -8,7 +8,7 @@ const About = () => {
       <section
         className="w-full bg-cover bg-center flex items-center justify-center text-white text-center relative overflow-hidden h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[90vh] "
         style={{
-          backgroundImage: `url(/Heroimg/plant.avif)`,
+          backgroundImage: `url(/Heroimg/about.avif)`,
           filter: "brightness(100%)",
         }}
       >   
