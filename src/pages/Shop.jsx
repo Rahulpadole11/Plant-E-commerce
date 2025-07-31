@@ -57,7 +57,7 @@ const Shop = () => {
     <div
       className="w-full h-[60vh] sm:h-[70vh]  md:h-[80vh] lg:h-[500px] relative flex items-center justify-center bg-center bg-cover mt-20"
       style={{
-        backgroundImage: `url(/Heroimg/shop.avif)`,
+        backgroundImage: `url(/Heroimg/shop.jpg)`,
       }}
     >
       <h1 className="text-white text-7xl font-bold">Shop</h1>
