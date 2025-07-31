@@ -8,7 +8,7 @@ const products = [
   name:"Tropical Breeze",
   category: "Indoor Plants",
   price:"$80.00",
-   image: "public/CardImg/TropicalBreeze.jpg",
+   image: "/CardImg/TropicalBreeze.jpg",
 
 },
 {
@@ -16,7 +16,7 @@ const products = [
   name:"Desert Bloom",
   category: "Indoor Plants",
   price:"$70.00",
-   image: "public/CardImg/DesertBloom.jpg",
+   image: "/CardImg/DesertBloom.jpg",
 
 },
 {
@@ -24,7 +24,7 @@ const products = [
   name:"Golden Glow",
   category: "Indoor Plants",
   price:"$85.00",
-   image: "public/CardImg/GoldenGlow.jpg",
+   image: "/CardImg/GoldenGlow.jpg",
 
 },{
     id: 4,
