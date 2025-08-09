@@ -1,12 +1,41 @@
-# React + Vite
+🌿 Indoor Plant E-Commerce App
+An elegant and responsive React.js + Tailwind CSS powered indoor plant shopping application.
+This app allows users to browse, search, and purchase a variety of indoor plants with a smooth, modern UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 Screenshots
+(Add your screenshots here)
+Example:
 
-Currently, two official plugins are available:
+🚀 Features
+🛒 Beautiful Product Listings – Browse indoor plants with images, prices, and descriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔍 Search & Filter – Easily find plants by name or category.
 
-## Expanding the ESLint configuration
+📱 Fully Responsive – Mobile-first design with smooth navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌗 Dark Mode Support – Toggle between light and dark themes.
+
+🖱️ Smooth Animations – Framer Motion-based transitions for a premium feel.
+
+📂 Reusable Components – Clean and modular code for scalability.
+
+⚡ Fast Performance – Optimized with React best practices.
+
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS, Framer Motion
+
+Backend: Node.js, Express.js (if applicable)
+
+Database: MongoDB (if applicable)
+
+Package Manager: npm / yarn
+
+
+Future Improvements
+🛍️ Add product categories & sorting options
+
+💳 Integrate payment gateway (Stripe/PayPal)
+
+👤 Add user authentication & order history
+
+📦 Implement real backend API with MongoDB
