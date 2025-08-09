@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Starlight Succulent",
+    "category": "Indoor Plants",
+    "price": "$95.00",
+    "image": "/CardImg/StarlightSucculent.jpg",
+    "description": "Beautiful indoor plant that purifies air.",
+    "rating": 4.5,
+    "reviews": 128
+  },
+  
+  {
+    "id": 2,
+    "name": "Silver Mist",
+    "category": "Indoor Plants",
+    "price": "$92.00",
+    "image": "/CardImg/silverMist.jpg",
+    "description": "Low-maintenance air purifier.",
+    "rating": 4.3,
+    "reviews": 142
+  },
+  {
+    "id": 3,
+    "name": "Golden Glow",
+    "category": "Indoor Plants",
+    "price": "$85.00",
+    "image": "/CardImg/GoldenGlow.jpg",
+    "description": "Large indoor palm for bright spaces.",
+    "rating": 4.8,
+    "reviews": 96
+  },
+
+  {
+    "id": 4,
+    "name": "Tropical Breeze",
+    "category": "Indoor Plants",
+    "price": "$80.00",
+    "image": "/CardImg/TropicalBreeze.jpg",
+    "description": "Lush tropical plant for indoor spaces.",
+    "rating": 4.6,
+    "reviews": 110
+  },
+  
+  {
+    "id": 5,
+    "name": "Desert Bloom",
+    "category": "Indoor Plants",
+    "price": "$70.00",
+    "image": "/CardImg/DesertBloom.jpg",
+    "description": "Succulent that thrives in dry conditions.",
+    "rating": 4.2,
+    "reviews": 85
+  },
+  
+  {
+    "id": 6,
+    "name": "Zen Bamboo Grove",
+    "category": "Indoor Plants",
+    "price": "$90.00",
+    "image": "/CardImg/zenBamboo.jpg",
+    "description": "Calming bamboo plant for serene environments.",
+    "rating": 4.7,
+    "reviews": 120
+  }
+]

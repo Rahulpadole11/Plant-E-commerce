@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Starlight Succulent",
+    "category": "Indoor Plants",
+    "price": "$95.00",
+    "image": "/CardImg/StarlightSucculent.jpg",
+    "description": "Beautiful indoor plant that purifies air.",
+    "rating": 4.5,
+    "reviews": 128
+  },
+  
+  {
+    "id": 2,
+    "name": "Silver Mist",
+    "category": "Indoor Plants",
+    "price": "$92.00",
+    "image": "/CardImg/silverMist.jpg",
+    "description": "Low-maintenance air purifier.",
+    "rating": 4.3,
+    "reviews": 142
+  },
+  {
+    "id": 3,
+    "name": "Golden Glow",
+    "category": "Indoor Plants",
+    "price": "$85.00",
+    "image": "/CardImg/GoldenGlow.jpg",
+    "description": "Large indoor palm for bright spaces.",
+    "rating": 4.8,
+    "reviews": 96
+  }
+]
