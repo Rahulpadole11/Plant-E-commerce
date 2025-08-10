@@ -45,7 +45,7 @@ useEffect(() => {
     <>
      <Loader loading={loading} />
       {!loading && (
-  <div style={{  textAlign: "center" }}>
+  <div >
    <div
       className="w-full h-[60vh] sm:h-[70vh]  md:h-[80vh] lg:h-[500px] relative flex items-center justify-center bg-center bg-cover mt-20"
       style={{
@@ -54,7 +54,7 @@ useEffect(() => {
     >
       <h1 className="text-white text-7xl font-bold">Shop</h1>
 </div>
-    <section className="py-22 px-32">
+    <section className="py-22 px-20">
       
       
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -68,3 +68,4 @@ useEffect(() => {
         </>
   );
 }
+
