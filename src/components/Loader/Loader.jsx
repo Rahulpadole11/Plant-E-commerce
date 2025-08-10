@@ -8,7 +8,7 @@ const Loader = ({ loading }) => {
 
   return (
     <>
-       <div className="loader-overlay1">
+      <div className="loader-overlay1">
         <div className="dot"></div>
         <div className="dot"></div>
         <div className="dot"></div>
@@ -18,4 +18,5 @@ const Loader = ({ loading }) => {
 };
 
 export default Loader;
+
 
