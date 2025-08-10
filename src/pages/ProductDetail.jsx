@@ -20,7 +20,7 @@ export default function ProductDetail() {
       <h2 className="text-2xl font-bold">{plant.name}</h2>
       <p className="text-gray-500">{plant.category}</p>
       <p className="my-2">{plant.description}</p>
-      <p className="font-semibold">${plant.price}</p>
+      <p className="font-semibold">{plant.price}</p>
       <button
         onClick={() => dispatch(addToCart(plant))}
         className="bg-green-600 cursor-pointer text-white px-4 py-2 rounded mt-2"
@@ -36,3 +36,4 @@ export default function ProductDetail() {
     </div>
   );
 }
+
