@@ -61,7 +61,7 @@ export default function Cart() {
       )}
       <div className=" flex justify-center mt-20">
         <Link to="/shop">
-          <button className=" bg-green-500 w-[500px]  h-10 rounded-full flex justify-center items-center">
+          <button className=" bg-green-500 w-[500px]  h-10 rounded-full flex justify-center items-center cursor-pointer">
             Continue Shopping{" "}
           </button>
         </Link>
@@ -69,4 +69,5 @@ export default function Cart() {
     </div>
   );
 }
+
 
