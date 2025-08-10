@@ -162,7 +162,7 @@ const Navbar = () => {
           <FaYoutube className="hover:text-gray-500  cursor-pointer" href="https://www.youtube.com/" />
           <FaXTwitter className="hover:text-gray-500  cursor-pointer" href="https://twitter.com/" />
           <div className="relative">
-            <Link to="/cart" className=" text-green-700 px-3 py-1 rounded">
+            <Link to="/cart" className=" px-3 1 rounded">
               <FaShoppingCart />  <span className="absolute -top-1 -right-3  text-black text-xs rounded-full mx-2 mt-2">
               {cartCount === 0 ? "" : cartCount}
                </span>
@@ -176,4 +176,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
