@@ -21,7 +21,7 @@ const Hero = () => {
           Discover the Beauty of <br /> Nature at Your Fingertips
         </h1>
         <a
-          href="/shop"
+          href="#shop"
           className="bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition"
         >
           Shop Now
@@ -32,4 +32,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 
