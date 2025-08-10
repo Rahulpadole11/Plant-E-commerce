@@ -158,12 +158,12 @@ const Navbar = () => {
 
         <div className="flex gap-4 pt-2">
           <FaFacebook className="hover:text-gray-300  cursor-pointer" href="https://www.facebook.com/" />
-          <FaInstagram className="hover:text-gray-500  cursor-pointer" href="https://www.instagram.com/" />
-          <FaYoutube className="hover:text-gray-500  cursor-pointer" href="https://www.youtube.com/" />
-          <FaXTwitter className="hover:text-gray-500  cursor-pointer" href="https://twitter.com/" />
+          <FaInstagram className="hover:text-gray-300  cursor-pointer" href="https://www.instagram.com/" />
+          <FaYoutube className="hover:text-gray-300  cursor-pointer" href="https://www.youtube.com/" />
+          <FaXTwitter className="hover:text-gray-300 cursor-pointer" href="https://twitter.com/" />
           <div className="relative">
-            <Link to="/cart" className=" px-3 1 rounded">
-              <FaShoppingCart />  <span className="absolute -top-1 -right-3  text-black text-xs rounded-full mx-2 mt-2">
+            <Link to="/cart" className="hover:text-gray-300  rounded">
+              <FaShoppingCart />  <span className="absolute -top-1 -right-3  text-black text-xs rounded-full  ">
               {cartCount === 0 ? "" : cartCount}
                </span>
             </Link>
@@ -176,5 +176,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
 
 
