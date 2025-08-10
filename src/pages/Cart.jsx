@@ -48,7 +48,7 @@ export default function Cart() {
             </div>
             <button
               onClick={() => dispatch(removeFromCart(item.id))}
-              className="bg-red-500 text-white px-2 py-1 rounded"
+              className="bg-red-500 text-white px-2 py-1 rounded cursor-pointer"
             >
               Remove One
             </button>
@@ -69,3 +69,4 @@ export default function Cart() {
     </div>
   );
 }
+
