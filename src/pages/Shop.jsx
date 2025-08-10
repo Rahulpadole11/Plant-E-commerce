@@ -1,11 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "../features/productsSlice";
 import ProductCard from "../components/ProductCard";
+import Loader from "../Loader/Loader";
 
 export default function Shop({ allPlants }) {
   const dispatch = useDispatch();
   const { items, status } = useSelector((state) => state.products);
+  const [loading, setLoading] = useState(true)
+useEffect(() => {
+     
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+    }, []);
 
   useEffect(() => {
     dispatch(fetchProducts("allPlants.json"));
@@ -28,8 +36,16 @@ export default function Shop({ allPlants }) {
     );
   }
 
+
+
+
+  
+
   return (
     <>
+     <Loader loading={loading} />
+      {!loading && (
+  <div style={{  textAlign: "center" }}>
    <div
       className="w-full h-[60vh] sm:h-[70vh]  md:h-[80vh] lg:h-[500px] relative flex items-center justify-center bg-center bg-cover mt-20"
       style={{
@@ -47,6 +63,8 @@ export default function Shop({ allPlants }) {
         ))}
       </div>
     </section>
+    </div>
+      )}
         </>
   );
 }
