@@ -29,7 +29,7 @@ export default function App() {
     <div className="min-h-screen flex flex-col bg-gray-100">
       <Loader loading={loading} />
       {!loading && (
-  <div style={{  textAlign: "center" }}>
+  <div >
       <Navbar />
 
       <Routes>
