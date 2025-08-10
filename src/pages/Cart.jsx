@@ -20,9 +20,9 @@ export default function Cart() {
 
   return (
     <div className="min-h-[200px] mt-15 p-5">
-      <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
+      <h2 className="text-2xl font-bold mb-4">Shopping Cart</h2>
 
-      {cartItems.length === 0 && <p>Your cart is empty.</p>}
+      {cartItems.length === 0 && <p>No products in the cart.</p>}
 
       {cartItems.map((item) => {
         const price = parsePrice(item.price);
@@ -69,5 +69,6 @@ export default function Cart() {
     </div>
   );
 }
+
 
 
