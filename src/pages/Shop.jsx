@@ -36,11 +36,6 @@ useEffect(() => {
     );
   }
 
-
-
-
-  
-
   return (
     <>
      <Loader loading={loading} />
@@ -68,3 +63,4 @@ useEffect(() => {
         </>
   );
 }
+
