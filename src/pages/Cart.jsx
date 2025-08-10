@@ -8,11 +8,11 @@ export default function Cart() {
 
 
   const parsePrice = (price) => {
-    if (price == null) return 0; // null or undefined
+    if (price == null) return 0; 
     return parseFloat(price.toString().replace(/[^0-9.]/g, "")) || 0;
   };
 
-  // Calculate total
+
   const total = cartItems.reduce(
     (sum, item) => sum + parsePrice(item.price) * item.quantity,
     0
@@ -20,9 +20,9 @@ export default function Cart() {
 
   return (
     <div className="min-h-[200px] mt-15 p-5">
-      <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
+      <h2 className="text-2xl font-bold mb-4">Shopping Cart</h2>
 
-      {cartItems.length === 0 && <p>Your cart is empty.</p>}
+      {cartItems.length === 0 && <p>No products in the cart.</p>}
 
       {cartItems.map((item) => {
         const price = parsePrice(item.price);
@@ -50,7 +50,7 @@ export default function Cart() {
               onClick={() => dispatch(removeFromCart(item.id))}
               className="bg-red-500 text-white px-2 py-1 rounded"
             >
-              Remove One
+              Remove
             </button>
           </div>
         );
@@ -69,3 +69,4 @@ export default function Cart() {
     </div>
   );
 }
+
